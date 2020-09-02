@@ -12,4 +12,17 @@
     <artifactId>abstract-factory</artifactId>
 
 
+    <dependencies>
+        <dependency>
+            <scope>test</scope>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+        </dependency>
+        <dependency>
+            <scope>test</scope>
+            <groupId>com.google.truth</groupId>
+            <artifactId>truth</artifactId>
+            <version>${google.truth.version}</version>
+        </dependency>
+    </dependencies>
 </project>

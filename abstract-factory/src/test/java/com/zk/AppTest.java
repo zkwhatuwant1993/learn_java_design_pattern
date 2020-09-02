@@ -2,19 +2,23 @@ package com.zk;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
 
 /**
- * Unit test for simple App.
+ * Tests that Abstract Factory example runs without errors.
  */
 public class AppTest 
 {
     /**
-     * Rigorous Test :-)
+     * Issue: Add at least one assertion to this test case.
+     *
+     * Solution: Inserted assertion to check whether the execution of the main method in {@link App}
+     * throws an exception.
      */
+
     @Test
-    public void shouldAnswerWithTrue()
-    {
-        assertTrue( true );
+    void shouldExecuteApplicationWithoutException() {
+
+        assertDoesNotThrow(() -> App.main(new String[]{}));
     }
 }

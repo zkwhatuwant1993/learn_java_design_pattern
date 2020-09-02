@@ -1,8 +1,8 @@
 package com.zk;
 
-public class ElfKing implements King {
+public class OrcKing implements King {
 
-    private static final String DESCRIPTION ="This is the Elven king!";
+    static final String DESCRIPTION ="This is the Orc king!";
 
     @Override
     public String getDescription() {

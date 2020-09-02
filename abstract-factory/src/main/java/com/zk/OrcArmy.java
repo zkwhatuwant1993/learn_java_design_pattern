@@ -1,8 +1,8 @@
 package com.zk;
 
-public class ElfArmy implements Army {
+public class OrcArmy implements Army {
 
-    private static final String DESCRIPTION ="This is the Elven army!";
+    static final String DESCRIPTION ="This is the Orc army!";
 
     @Override
     public String getDescription() {

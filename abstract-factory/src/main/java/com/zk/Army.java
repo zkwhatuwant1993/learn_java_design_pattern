@@ -1,4 +1,4 @@
 package com.zk;
 
-public interface Castle extends KingdomObject{
+public interface Army extends KingdomObject{
 }
